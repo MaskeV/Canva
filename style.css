@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+}
+header{
+   
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+     font-size: 1.45rem;
+     border: 1px solid  lab(87.79% 0.4 -2.08);;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding: 6px 6px;
+    border-radius: 4px;
+}
+nav a:hover{
+    background-color: #dbdce080;
+}
+
+.signup, .login{
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+.signup{
+   
+    border: 1px solid #a0a0a0;
+    margin-right: 10px;
+    
+}
+.signup:hover{
+  background-color: #dbdce080;   
+}
+
+.login{
+    background-color: #7d2ae8;
+    color: #f0eeee;
+    
+}
+
+
